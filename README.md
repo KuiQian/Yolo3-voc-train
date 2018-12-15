@@ -1,8 +1,13 @@
-# Multiple-object-tracking
-### Environment
-#### Python 3.6.7
-#### Keras 2.2.4
-#### Tensorflow 1.12.0
+# Yolo3-voc-train
+### Dataset
+VOC2007
+### Dependences
+The code has been tested in python 3.6, ubuntu 16.04.
+1. keras-gpu
+2. tensorflow-gpu
+3. matplotlib
+4. Pillow
+5. opencv
 
 ### Run with GPU:
 conda create -n yolo3 python=3.6 keras-gpu tensorflow-gpu matplotlib
