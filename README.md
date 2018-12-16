@@ -8,7 +8,10 @@ The code has been tested in python 3.6, ubuntu 16.04.
 3. matplotlib
 4. Pillow
 5. opencv
+### Test
+python yolo_video.py [OPTIONS...] --image, for image detection mode, OR
 
+python yolo_video.py [video_path] [output_path (optional)]
 ### Run with GPU:
 conda create -n yolo3 python=3.6 keras-gpu tensorflow-gpu matplotlib
 
